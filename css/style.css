@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.cabecalho {
+    width: 1024px;
+    height: 100px;
+    background-color: #222;
+}
+
+.principal {
+    width: 1024px;
+    height: 420px;
+}
+
+.imagem-delivery {
+    margin: 35px 5px 35px 19px;
+    width: 490px;
+    height: 350px;
+    background-image: url(./../img/delivery.jpg);
+    background-repeat: no-repeat;
+}
+
+.imagem-delivery p {
+    text-align: center;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fc200c;
+    padding: 4px 3px 0 2px;
+}
+
+.palavraComprando {
+    color: #fff;
+}
+
+.rodape {
+    width: 1024px;
+    height: 150px;
+    background-color: #222;
+}
+
+.rodape ul {
+    height: 131px;
+    padding-left: 20px;
+}
+
+.rodape ul li:first-child {
+    padding-top: 19px;
+}
+
+.rodape ul li:last-child {
+    padding-bottom: 19px;
+}
+
+.rodape ul li {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    height: 19px;
+    margin-bottom: 12px;
+}
