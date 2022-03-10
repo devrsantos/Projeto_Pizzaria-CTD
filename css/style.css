@@ -13,9 +13,55 @@ body {
     background-color: #222;
 }
 
+h1 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+header h1 {
+    padding: 36px 0 36px 122px;
+}
+
+.texto-verde {
+    color: #39b24a;
+}
+
+.texto-vermelho {
+    color: #fc200c;
+}
+
+.menu {
+    position: relative;
+    left: 720px;
+    top: -100px;
+    width: 290px;
+    height: 19px;
+    margin-right: 28px;
+}
+
+a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 8px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
 .principal {
     width: 1024px;
-    height: 420px;
+    height: 385px;
 }
 
 .imagem-delivery {
@@ -37,6 +83,62 @@ body {
 
 .palavraComprando {
     color: #fff;
+}
+
+.cardapio {
+    position: relative;
+    top: -385px;
+    left: 520px;
+    margin: 35px 5px 35px 19px;
+    width: 491px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.top5 {
+    width: 385px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    top: -170px;
+}
+
+.top5 h3 {
+    margin-left: 69px;
+    margin-bottom: 20px;
+}
+
+.top5 ol {
+    margin-left: 51px;
+}
+
+.top5 ol li {
+    margin-bottom: 10px;
+}
+
+.imagem-fatiada {
+    display: inline-block;
+    position: relative;
+    bottom: -128px;
+    background-image: url(./../img/PizzaFalling.jpg);
+    background-repeat: no-repeat;
+
+    width: 92px;
+    height: 129px;
+
+    margin: 80px 74px 0 325px;
+}
+
+.cardapio h2 {
+    width: 205px;
+    height: 28px;
+    font-size: 23px;
+    color: #fc200c;
+    font-weight: 700;
+    padding-top: 26px;
+    padding-left: 160px;
+    padding-right: 126px;
 }
 
 .rodape {
@@ -65,4 +167,12 @@ body {
     font-weight: 400;
     height: 19px;
     margin-bottom: 12px;
+}
+
+.rodape h1 {
+    position: relative;
+    left: 855px;
+    top: -75px;
+    width: 110px;
+    height: 23px;
 }
