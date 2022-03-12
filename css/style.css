@@ -34,6 +34,10 @@ header {
     padding: 10px 0px 10px 20px;
 }
 
+img {
+    position: absolute;
+}
+
 .logo h1 {
     padding: 26px 0 26px 112px;
     width: 142px;
@@ -70,7 +74,7 @@ nav ul li {
 a {
     color: #fff;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -97,6 +101,20 @@ main {
     background-repeat: no-repeat;
 }
 
+.imagemDelivery p {
+    width: 485px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    margin: 4px 3px 0px 2px;
+}
+
 .cardapio {
     width: 490px;
     height: 350px;
@@ -114,7 +132,7 @@ main {
 
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 28px;
     margin: 26px 126px 30px 160px;
 }
